@@ -1,6 +1,7 @@
 const { defaults: tsjPreset } = require("ts-jest/presets")
 
 /** @type {import('@jest/types').Config.ProjectConfig} */
+ @type {import('@jest/types').Config.ProjectConfig} 
 module.exports = {
   ...tsjPreset,
   preset: "jest-expo",
